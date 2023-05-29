@@ -1,0 +1,2 @@
+# Exercises
+ Javascript DOM practice

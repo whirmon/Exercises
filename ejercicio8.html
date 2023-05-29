@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./ejercicio8.js" defer></script>
+</head>
+<body>
+    <p><strong>EJERCICIO 1:</strong> Crear una función que en base a la edad que ingreso el usuario devolver un mensaje si la persona es mayor de edad o no. Utilizar para la condición el operador ternario.</p>
+    <div>
+        <label for="temperatura">Temperatura:</label>
+        <input type="number" id="temperatura" step="1" min="1" max="999" required><br>
+        <label for="fOc">Sistema de medida:</label>
+        <select id="fOc" required>
+          <option value="c">Celcius</option>
+          <option value="f">Fahrenheit</option>
+        </select><br>
+        <button onclick="conversor()">Evaluar</button>
+    </div>
+        <p id="resultado"></p>
+</body>
+</html>

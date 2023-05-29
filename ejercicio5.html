@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 5</title>
+    <script src="./ejercicio5.js" defer></script>
+</head>
+<body>
+    <p><strong>EJERCICIO 3:</strong> Calcular el aumento de trabajador tomando en cuenta la tabla de categorías de aumento. Para este ejercicio deberá de asignar las siguientes variables: Nombre, Salario, categoría y aumento. Deberá demostrar en html los datos del empleado y el aumento salarial.</p>
+    <div>
+        <label for="precio">Precio neto:</label>
+        <input type="number" id="precio" required><br>
+        <label for="modeloCochE">Modelo del Coche:</label>
+        <select id="modeloCochE" required>
+          <option value="FORD FIESTA">FORD FIESTA</option>
+          <option value="FORD FOCUS">FORD FOCUS</option>
+          <option value="FORD ESCAPE">FORD ESCAPE</option>
+          <option value="FORD XPLORER">FORD XPLORER</option>
+        </select><br>
+        <button onclick="cocheDescuento()">Calcular descuento</button>
+    </div>
+        <p id="resultado"></p>
+</body>
+</html>

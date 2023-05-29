@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 3</title>
+    <script src="./ejercicio3.js" defer></script>
+</head>
+<body>
+    <p><strong>EJERCICIO 3:</strong> Calcular el aumento de trabajador tomando en cuenta la tabla de categorías de aumento. Para este ejercicio deberá de asignar las siguientes variables: Nombre, Salario, categoría y aumento. Deberá demostrar en html los datos del empleado y el aumento salarial.</p>
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required><br>
+        <label for="salario">Salario:</label>
+        <input type="number" id="salario" step="0.01" required><br>
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" required>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+        </select><br>
+        <button onclick="empleado()">Calcular aumento</button>
+    </div>
+        <p id="resultado"></p>
+</body>
+</html>

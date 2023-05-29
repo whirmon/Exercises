@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 2:</title>
+    <script src="./ejercicio2.js" defer></script>
+</head>
+<body>
+    <p><strong>EJERCICIO 2:</strong> Crear una función que determine la nota final de un alumno, la cual depende de lo siguiente:
+    <ul>
+            <il>Examen =20%</il>
+            <il>Tareas = 40%</il>
+            <il>Asistencia = 10%</il>
+            <il>Investigación = 30%</il>
+            <il>Al final deberá mostrar los datos del alumno, nombre, carnet y nota final.</il>
+        </ul>
+    </p>
+    <div>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" required><br>
+        <label for="examen">Examen (20%)</label>
+        <input type="number" id="examen" step="1" min="1" max="100" required><br>
+        <label for="tareas">Tareas (40%)</label>
+        <input type="number" id="tareas" step="1" min="1" max="100" required><br>
+        <label for="asistencia">Asistencia (10%)</label>
+        <input type="number" id="asistencia" step="1" min="1" max="100" required><br>
+        <label for="investigacion">Investigación (30%)</label>
+        <input type="number" id="investigacion" step="1" min="1" max="100" required><br>
+        <button onclick="estudiante()">Calcular</button>
+    </div>
+        <p id="resultado"></p>
+</body>
+</html>
